@@ -1,0 +1,135 @@
+.mega_container{
+    margin:-10px;
+    padding: 0px;
+    display:grid;
+    grid-template-columns:15% 85%; 
+    height: 100px;
+}
+.sidebar{
+    
+    grid-column: 1/2;
+    width:100%;
+    background-color: #0E8BCE;
+    display:grid;
+    grid-template-rows: auto auto 2fr 2fr;
+}
+.startcoding_text{
+    color: #242e39;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+.start_coding{
+    margin: 40px;
+    background-color: #E7F3FF;
+    border-radius: 5px;
+    height: 40px;
+    width: 70%;
+    justify-self: center;
+    align-self: start;
+    border:none;
+    box-shadow: 2px 2px rgba(231, 243, 255,0.8);
+    cursor:pointer;
+}
+ul{
+    list-style-type: none;
+}
+li{
+
+    font-size: 20px;
+    padding:10px;
+    color: #E7F3FF;
+    align-self: center;
+}
+.link_bar{
+    margin:10px;
+    align-self: start;
+    grid-row: 3/5;
+}
+.main_page{
+    background-color: #E7F3FF;
+    display: grid;
+    padding: 40px;
+    grid-template-rows: 1fr auto 1fr;   
+}
+.searchbarcontainer{
+    display: grid;
+    grid-template-columns: auto 0.25fr;
+}
+.search_bar{
+    
+    align-self: center;
+    margin:10px;
+    height: 60px;
+    padding-left:30px;
+    width:99%;
+    justify-self: center;
+    border-radius: 10px;
+    border:none;
+    
+}
+.login{
+    color: #E7F3FF;
+    font-size: 30px;
+    cursor:pointer
+}
+.search_bar:placeholder-shown{
+    font-size: 20px;
+}
+
+.image{
+    margin-bottom: -30px;
+    margin-top: 45px;
+    margin-left: 350px;
+    height: auto;
+    width: 25%;
+    justify-self: center;
+    align-self: center;
+}
+.login_button{
+    justify-self: start;
+    background-color: #0E8BCE;
+    border-radius: 20px;
+    height: 60px;
+    width:80%;
+    margin: 10px;
+    margin-right: 70px;
+
+    border:none;
+
+}
+.mainpage_maincontent{
+    margin-left: 30px;
+}
+.main_page_maintext{
+    margin-bottom: -10px;
+    margin-left: 70px;
+    width :80%;
+    font-size: 60px;
+    text-align: center;
+    font-family: "Montserrat","Lucida Handwriting";
+    justify-self: center;
+    font-weight: 500;
+}
+.main_page_subtext{
+    margin-left: 170px;
+    width:60%;
+    text-align: center;
+    font-size:25px;
+    font-weight: 200;
+    font-family: "Montserrat","Lucida Handwriting";
+    color: #09b4e7;
+}
+.sign_up{
+    background-color: #0E8BCE;
+    border-radius: 10px;
+    justify-self: center;
+    align-self: center;
+    border: none;
+    width:170px;
+    height: 40px;
+    font-size: 20px;
+    cursor:pointer;
+    
+
+}
